@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de recepcion de datos desde html</title>
+    <title>Formulario de recepción de datos desde html</title>
 </head>
 <body>
 
 <form action="">
     <h5>Datos personales</h5>
-    <label for="">
+    <label for="nombre">
         Nombres:
     </label>
-    <input type="text" name="nombre"> 
+    <input type="text" id="nombre" name="nombre"> 
     <br>
 
-    <label for="">
+    <label for="apellido">
         Apellidos:
     </label>
-    <input type="text" name="apellido"> 
+    <input type="text" id="apellido" name="apellido"> 
     <br>
 
-    <label for="">
+    <label for="edad">
         Edad:
     </label>
-    <input type="number" name="edad"> 
+    <input type="number" id="edad" name="edad"> 
     <br>
 
     <button type="submit">Enviar información</button>
